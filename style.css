@@ -5,7 +5,7 @@
     margin-top: 7%;
 }
 h1 {
-    font-size: 83px;
+    font-size: 97px;
     font-family: sans-serif;
     font-weight: lighter;
 }
@@ -22,17 +22,13 @@ p {
 img{
     height: 470px;
     width: 650px;
-    
+    border-radius: 15px;
 }
-.divleftbutton {
-    float: left;
-    margin-left: 20px;
-    
-}
-.divrightbutton{
-    float: right;
-    margin-right: 640px;
-    
+.buttons-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 29px;
+  margin-bottom: 35px;
 }
 button {
     width: 125px;
@@ -43,4 +39,33 @@ button {
 .leftbutton{
     background-color: blueviolet;
     color: white;
+}
+.stats {
+  display: flex;
+  gap: 60px;
+  margin-top: 30px;
+  margin-bottom: 32px;
+  justify-content: flex-start;
+}
+
+.stat {
+  text-align: center    
+}
+
+.number {
+  font-size: 38px;
+  font-weight: 700;
+  color: #6c63ff;
+  font-family: Arial;
+  margin-bottom: 5px;
+}
+
+.text {
+  font-size: 18px;
+  color: #767676;
+  font-weight: bold;
+  margin-top: 2px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: left;
+
 }
