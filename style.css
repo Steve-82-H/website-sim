@@ -1,8 +1,8 @@
 
 .leftside {
-    background-color: aqua;
     width: 50%;
     float: left;
+    margin-top: 7%;
 }
 h1 {
     font-size: 83px;
@@ -14,14 +14,33 @@ p {
     font-family: arial;
 }
 .rightside {
-    background-color: red;
     width: 50%;
     float: right;
     text-align: center;
+    margin-top: 7%;
 }
 img{
     height: 470px;
     width: 650px;
     
 }
-
+.divleftbutton {
+    float: left;
+    margin-left: 20px;
+    
+}
+.divrightbutton{
+    float: right;
+    margin-right: 640px;
+    
+}
+button {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+.leftbutton{
+    background-color: blueviolet;
+    color: white;
+}
