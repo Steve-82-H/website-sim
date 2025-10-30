@@ -1,0 +1,27 @@
+
+.leftside {
+    background-color: aqua;
+    width: 50%;
+    float: left;
+}
+h1 {
+    font-size: 83px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+p {
+    font-size: 30px;
+    font-family: arial;
+}
+.rightside {
+    background-color: red;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+img{
+    height: 470px;
+    width: 650px;
+    
+}
+
